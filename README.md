@@ -7,3 +7,6 @@ python setup.py
 
 How to use:
 elpscrk -list "n1,n2.." -output "output directory"
+
+Developed by BunnyDark
+Trasnlated by Arky92
