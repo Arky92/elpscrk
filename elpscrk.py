@@ -30,7 +30,7 @@ def printar():
 		    |                      |
                     |  CODED BY: BUNNYDARK |
                     |     VERSION: 0.1     |
-                    | TRANSLATE BY: ArKy92 |
+                    | TRANSLATED BY: ArKy92 |
                     |______________________|
 	"""+END
 
@@ -140,10 +140,10 @@ def main():
 	parser.add_argument('-output', action = 'store', dest = 'output', help = 'Final file where they will be placed in the worldlist')
 	arg = parser.parse_args()
 	if(arg.lst == None):
-		print FAIL+BOLD+"\n\n[X] Error setting parameters: use elpscrk -list 'LISTA' -output OUTPUT_FILE"
+		print FAIL+BOLD+"\n\n[X] Error setting parameters: use elpscrk -list 'LIST' -output OUTPUT_FILE"
 		sys.exit(0)
 	elif(arg.output == None):
-		print FAIL+BOLD+"\n\n[X] Error setting parameters: use elpscrk -list 'LISTA' -output OUTPUT_FILE"
+		print FAIL+BOLD+"\n\n[X] Error setting parameters: use elpscrk -list 'LIST' -output OUTPUT_FILE"
 		sys.exit(0)
 	else:
 		if(os.path.isfile(arg.output)):
